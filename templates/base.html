@@ -3,19 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{% block title %} {% endblock%}</title>
-    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/stylesheet.css') }}">
+    <title>Kayla and Bailey's Page</title>
+    <link rel="stylesheet" type="text/css" href="/static/css/stylesheet.css">
+
+    <title> Kayla and Bailey's Page</title>
 </head>
 <body>
-    <div>
-        <h1>Welcome to Software Design</h1>
-        <hr>
-        <br>
-        
-        {% block body %}
+    Kayla Van Langen and Bailey Lamm
+    <img src="./Kayla_and_Bailey.jpg" alt="Picture of Pair Programming Team" width="200" height="300">
+</body>
+</body>
+</html>
 
-        {% endblock %}
-
-    </div>
+{% extends 'base.html' %} {% block body %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="css" href="/static/css/stylesheet.css">
+      
+    <title>Team Page</title>
+</head>
+<body>
+    Kayla Van Langen and Bailey Lamm
+    <img src="./Kayla_and_Bailey.jpg" alt="Picture of Pair Programming Team" width="200" height="300">
 </body>
 </html>
